@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do list</h1>
+        <button id="darkModeToggle">Switch to Dark Mode</button>
+        <div class="form">
+            <input type="text" id="task-input" placeholder="add new task">
+            <input type="date" id="dueDateInput" placeholder="Select due date">
+            <button id="addTaskButton">Add</button>
+        </div>
+        <ul id="taskList" ></ul>
+    
+    <div class="priority">
+     <label for="priority">Priority:</label>
+     <select id="priority">
+        <option value="High">High</option>
+        <option value="Low">Low</option>
+     </select>
+    </div>
+    <div class="date">
+        <label for="Date">Date:</label>
+        <input type="date" id="date" required>
+      </div>
+      </div>
+    <script src="to.js"></script>  
+</body>
+</html>
